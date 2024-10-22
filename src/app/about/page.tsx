@@ -1,7 +1,9 @@
 import React from "react";
 // import {Navbar} from "../components/navbar/page";
 
- const About = () => {
+const  About = async () => {
+  await new Promise((resolve)=>{
+    setTimeout(resolve,3000)})
   return (
     <div>
       
